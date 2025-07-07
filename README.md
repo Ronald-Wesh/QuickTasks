@@ -17,7 +17,7 @@ Styling	Tailwind CSS
 ✅ Seamless frontend-backend integration via Axios
 ⚙️ Installation & Setup
 1️⃣ Clone the repo
-git clone https://github.com/PLP-MERN-Stack-Development/week-3-catch-up-.git
+git clone https:https://github.com/Ronald-Wesh/QuickTasks.git
 cd week-3-catch-up-
 2️⃣ Setup the backend
 cd server
