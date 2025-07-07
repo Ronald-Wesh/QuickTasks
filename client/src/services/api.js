@@ -9,3 +9,6 @@ export const getTasks=()=>API.get("/tasks");
 export const createTask=(task)=>API.post("/tasks",task);
 export const updateTask=(id,task)=>API.put(`/tasks/${id}`,task);//id, task) = Needs the task ID and new task data
 export const deleteTask=(id)=>API.delete(`/tasks/${id}`);// `/tasks/${id}` = Template literal - puts the ID in the URL
+
+const res=await axios.get("http:http://localhost:5000/api/tasks");
+console.log(res);
